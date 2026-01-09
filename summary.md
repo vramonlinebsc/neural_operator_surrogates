@@ -1,27 +1,25 @@
-Summary for Context in New Chat
-We're creating a rigorous, publication-quality paper on neural surrogates for NMR spin dynamics that addresses all the critical gaps in the reviewed paper:
-Key Improvements:
 
-Compare against state-of-the-art methods (Krylov subspace, Chebyshev propagation, tensor networks)
-Provide detailed architecture specifications and ablation studies
-Validate on realistic molecular topologies (not just 1D chains)
-Quantitative error metrics throughout
-Test generalization and out-of-distribution performance
-Verify conservation laws (trace, hermiticity)
-Demonstrate on multiple inverse problems with noise
-Provide complete reproducibility with open code
+
+1. Compare against state-of-the-art methods (Krylov subspace, Chebyshev propagation, tensor networks)
+2. Provide detailed architecture specifications and ablation studies
+3. Validate on realistic molecular topologies (not just 1D chains)
+4. Quantitative error metrics throughout
+5. Test generalization and out-of-distribution performance
+6. Verify conservation laws (trace, hermiticity)
+7. Demonstrate on multiple inverse problems with noise
+8. Provide complete reproducibility with open code
 
 Architecture: Fourier Neural Operator (FNO) based architecture with:
 
-Physics-informed losses (conservation laws)
-Multi-fidelity training
-Uncertainty quantification
-Attention mechanisms for variable system sizes
+1. Physics-informed losses (conservation laws)
+2. Multi-fidelity training
+3. Uncertainty quantification
+4. Attention mechanisms for variable system sizes
 
 Validation:
 
-Multiple topologies (chain, ring, star, random graphs)
-Parameter sweep across J-coupling ranges
-Noise robustness testing
-Long-time stability analysis (up to 1000+ time steps)
-Multiple inverse problems (J-coupling recovery, chemical shift estimation, relaxation parameter fitting)
+1. Multiple topologies (chain, ring, star, random graphs)
+2. Parameter sweep across J-coupling ranges
+3. Noise robustness testing
+4. Long-time stability analysis (up to 1000+ time steps)
+5. Multiple inverse problems (J-coupling recovery, chemical shift estimation, relaxation parameter fitting)
