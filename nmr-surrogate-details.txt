@@ -1,0 +1,17 @@
+nmr-surrogate 
+
+external ip 
+
+34.134.13.92
+
+
+
+ssh nmr-surrogate.us-central1-a.neural-operator-surrogates
+
+ gcloud compute config-ssh --project=neural-operator-surrogates
+
+
+ssh nmr-surrogate.us-central1-a.neural-operator-surrogates
+
+
+nohup python3 sno_combined_full.py > output.log 2>&1 &
